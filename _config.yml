@@ -12,10 +12,10 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Zhangyu # add your name
 author-img: Zhangyu-freeman.jpg # add your photo
 about-author: A programmer who doesn't like singing is not a good boyfriend. # add description
-social-twitter:# add your Twitter handle
+social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: zysxm # add your Github handle
-social-linkedin:# add your Linkedin handle
+social-linkedin: # add your Linkedin handle
 social-email: 451253127@qq.com # add your Email address
 
 # Disqus
