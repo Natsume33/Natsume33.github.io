@@ -1,7 +1,7 @@
 ---
 layout: post
 title: markdown_sync
-date: 
+date: 2018-07-17 13:32:20 +0300
 description: markdown sync
 img: workflow.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
