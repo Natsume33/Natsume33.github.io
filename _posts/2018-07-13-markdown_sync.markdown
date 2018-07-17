@@ -1,6 +1,6 @@
 ---
 layout: post
-title: markdown
+title: markdown_sync
 date: 
 description: markdown sync
 img: workflow.jpg # Add image post (optional)
