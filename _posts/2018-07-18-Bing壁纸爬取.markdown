@@ -1,0 +1,31 @@
+---
+layout: post
+title: Bing壁纸爬取
+date: 2018-07-17 22:50:20 +0300
+description: 闲着没事爬着玩 # Add post description (optional)
+img: Bing_1280/99.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [爬虫,Python]
+---
+
+本次爬取采用[https://github.com/xCss/bing]提供的接口
+
+```python
+
+from urllib.request import urlopen
+import time
+pname = 0
+day = 0
+while True:
+    day +=1
+    url = 'https://bing.ioliu.cn/v1?d={}&w=1280'.format(day)
+
+    response = urlopen(url)
+    responseStr = response.read()
+
+    pname +=1
+    with open('C:/Users/45125/Downloads/Bing_1280/{}.jpg'.format(pname),'wb')as f:
+        f.write(responseStr)
+        f.close()
+    time.sleep(0.5)
+```
