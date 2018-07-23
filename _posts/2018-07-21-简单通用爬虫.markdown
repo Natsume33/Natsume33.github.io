@@ -129,10 +129,10 @@ for u,p in patternDict.items():
 > 更:2018-07-23
 >> 数据未进行处理
 >> 返回数据没有list化处理 无法判断字符串
->> 按如下修改getInfoAndItemFromCode()方法返回值
+>> 需按如下修改getInfoAndItemFromCode()方法返回值,如此,获取一条内容时才能正确处理
 
 ```python
-        if type(info[0] == str):
+        if type(info[0]) == str:
             new_info  = []
             
             for var in info:
@@ -144,7 +144,7 @@ for u,p in patternDict.items():
             return info 
 ```
 
-> new:
+> new: 非list化,对返回值进行判断和去除无用信息
 
 ```python
 from urllib.request import Request,urlopen
