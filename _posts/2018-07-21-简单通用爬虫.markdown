@@ -130,6 +130,7 @@ for u,p in patternDict.items():
 >> 数据未进行处理
 >> 返回数据没有list化处理 无法判断字符串
 >> 按如下修改getInfoAndItemFromCode()方法返回值
+
 ```python
         if type(info[0] == str):
             new_info  = []
