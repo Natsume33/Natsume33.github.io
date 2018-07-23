@@ -9,23 +9,8 @@ tags: [爬虫,Python]
 ---
 
 简单爬取文本插入数据库 传递网址链接和正则即可
-> 更:2018-07-23
->> 数据未进行处理
->> 返回数据没有list化处理 无法判断字符串
->> 修改getInfoAndItemFromCode()方法返回值
->> ```python
-        if type(info[0] == str):
-            new_info  = []
-            
-            for var in info:
-                var_list = []
-                var_list.append(var)
-            new_info.append(var_list)
-            return new_info
-        else:
-            return info 
->> ```
 
+```python
 import re
 from urllib.request import urlopen,Request
 import sqlite3
@@ -137,9 +122,28 @@ for u,p in patternDict.items():
     code = spider.getCodeFromUrl(u)
     info= spider.getInfoAndItemFromCode(code,pattern)
     spider.insertDBFromInfo(info)
-```
 	
-new:
+```
+
+
+> 更:2018-07-23
+>> 数据未进行处理
+>> 返回数据没有list化处理 无法判断字符串
+>> 按如下修改getInfoAndItemFromCode()方法返回值
+```python
+        if type(info[0] == str):
+            new_info  = []
+            
+            for var in info:
+                var_list = []
+                var_list.append(var)
+            new_info.append(var_list)
+            return new_info
+        else:
+            return info 
+```
+
+> new:
 
 ```python
 from urllib.request import Request,urlopen
@@ -251,4 +255,5 @@ class Spider(object):
 
 spider = Spider('https://www.qiushibaike.com/hot/page/','<div class="author clearfix">.*?<h2>(.*?)</h2>.*?<div class="content">.*?<span>(.*?)</span>')
 spider.load_url()
+
 ```
