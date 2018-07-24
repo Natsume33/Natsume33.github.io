@@ -3,7 +3,7 @@ layout: post
 title: 人人美剧懒加载
 date: 2018-07-24 21:20:20 +0300
 description: 爬着玩 # Add post description (optional)
-img: Bing_1280/94.jpg # Add image post (optional)
+img: Bing_1280/92.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [爬虫,Python]
 ---
