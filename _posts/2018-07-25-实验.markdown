@@ -1,0 +1,20 @@
+---
+layout: post
+title: 实验
+date: 2018-07-25 9:52:20 +0300
+description: 爬着玩 # Add post description (optional)
+img: Bing_1280/92.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [爬虫,Python]
+---
+
+实验 八八八八八八八八
+
+```python
+
+def get_total_page(self,code):
+        pattern = re.compile(r'<span class="td">共(.*?)页.*?</span>',re.S)
+        result = pattern.findall(code)
+        return (int(result[0]))
+
+```

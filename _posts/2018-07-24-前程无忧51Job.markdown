@@ -17,7 +17,7 @@ tags: [爬虫,Python]
 
 ```python
 
-#https://search.51job.com/list/020000%252C030200,000000,0000,00,9,99,python,2,1.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=
+#https://search.51job.com/list/020000%252C030200,000000,0000,00,9,99,python,2,1.html
 
 from urllib.request import Request,urlopen
 from urllib.parse import quote
@@ -108,7 +108,7 @@ class job_51(object):
 
         return sheet, workBook
     def get_code_from_url(self,indexPage):
-        url = 'https://search.51job.com/list/{},000000,0000,00,9,99,{},2,{}.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare='.format(self.cityName,self.job,indexPage)
+        url = 'https://search.51job.com/list/{},000000,0000,00,9,99,{},2,{}.html'.format(self.cityName,self.job,indexPage)
         request = Request(url,headers=self.headers)
         response = urlopen(request)
         code = response.read().decode('gbk')
