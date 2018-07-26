@@ -9,9 +9,13 @@ tags: [爬虫,Python]
 ---
 
 美食杰网站爬取封面图片,菜谱名及人气,以 "莴笋炒蛋（2047人气)" 形式存入数据库
+
 > 数据效果如图:
+
 ![效果](/assets/img/Pictures/meishij_data.jpg "数据库效果图")
+
 > 获取图片如图:
+
 ![效果](/assets/img/Pictures/meishij_pic.jpg "图片效果图")
 
 ```python
