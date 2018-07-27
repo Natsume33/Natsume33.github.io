@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NoteBook
-date: 2018-07-21 15:50:20 +0300
+date: 2018-07-27 18:50:20 +0300
 description: collections # Add post description (optional)
 img: Bing_1280/94.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
@@ -15,8 +15,10 @@ tags: [collections]
 ## 目录
 * [uwp Apps](#uwp_Apps "uwp推荐")
 * [翻墙ing](#翻墙ing "翻墙集合")
-* [Windows桌面美化](#Windows桌面美化)
-
+* [Windows桌面美化](#Windows桌面美化 "Windows桌面美化")
+* [云盘同步方案](#云盘同步方案 "云盘同步方案")
+* [视频专区](#视频专区 "视频资源专区")
+* [资源下载方案](#资源下载方案 "资源下载方案")
 
 ### uwp_Apps
 * 网易云音乐（首推没跑）
@@ -63,8 +65,44 @@ tags: [collections]
 2. Chrome
 	* AdGuard
 	* 油猴
-	* Saladict:沙拉划词翻译 UI漂亮(够吗？)
+	* Saladict:沙拉划词翻译 UI漂亮(够吗？:yum:)
 		* 支持鼠标点击事件自定义翻译
 		* 支持添加多种词典
-	* ![沙拉划词效果](/assets/img/NoteBook/Saladict.jpg "Saladict效果图")
+	![沙拉划词效果](/assets/img/NoteBook/Saladict.jpg "Saladict效果图")
+
+### 云盘同步方案
+* 果断选择微软巨硬 谁用谁知道
+* OneDrive
+	* 免费好用的代码同步库
+	* 通过推荐好友使用可免费永久扩容至15G
+* GoogleDrive
+* Dropbox
+* GitHub(代码同步,程序员的梦工厂)
+* 百度云盘用于转存资源
+
+### 视频专区
+* [xx社区:smile:](t66y.com "你懂的")
+* [Avgle:smile:](avgle.com "你懂的")
+* [pornhub](pornhub.com "全球最大的那啥网站")
+* [18AV](imgscloud.win "导航")
+* [琉璃神社](liuli.pw "不正经番剧")
+* [人人影视](zimuzu.tv "我爱人人")
+	* 追美剧的好地方
+	* 移动端推荐人人影视官方app食用更佳
+* [电影天堂](dytt8.net "盗版的")
+	* 虽然当年的电影天堂的老板被抓 但是还有无数个电影天堂存在
+* [哔哩哔哩](bilibili.com "b站")
+	* 最近被央视点名 被强行整改
+	现已被小米,酷安,豌豆荚等各大应用商店下架
+	美名其曰升级后再次上架
+* [BT Kitty](cnbtkitty.org "搜索")
+	* 资源搜索利器 翻墙使用-->[翻墙ing](#翻墙ing "翻墙ing")
 	
+* *获取磁链或者种子文件后使用下载工具进行下载即可*
+	* 下载工具见 -->[资源下载方案](#资源下载方案 "资源下载方案")
+
+### 资源下载方案
+* 	迅雷极速版+油猴+百度云资源转直链插件
+	* 在浏览器登陆百度云通过插件转直链粘贴到迅雷极速
+* FDM
+* IDM
