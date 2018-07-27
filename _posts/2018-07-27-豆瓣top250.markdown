@@ -8,9 +8,10 @@ fig-caption: # Add figcaption (optional)
 tags: [爬虫,Python]
 ---
 
-获取豆瓣影评top250信息存入excel表
+## 获取豆瓣影评top250信息存入excel表
 
 > 使用xpath获取指定内容
+
 > from fake_useragent import UserAgent 随机生成User-Agent
 
 

@@ -8,6 +8,54 @@ fig-caption: # Add figcaption (optional)
 tags: [collections]
 ---
 
-NoteBook
+本页内容来自我的NoteBook
 
-* [Apps](https://github.com/zysxm/zhangyu_collections/blob/master/uwps.md "来自我的GitHub")
+展示平时收集内容以及个人想法心得 外加各种正经福利(逃)
+
+## NoteBook
+
+* [uwp Apps](###uwp_Apps "uwp推荐")
+* [翻墙ing](###翻墙ing "翻墙集合")
+* [Windows桌面美化](###Windows桌面美化)
+
+
+### uwp_Apps
+* 网易云音乐（首推没跑）
+* 酷我音乐
+* QQ音乐
+* 爱奇艺（无广告？）
+* QQ（万年不更新）
+* 哔哩哔哩弹幕视频（逻辑交互体验极差）
+* OneDrive（不愧大厂出品，除了屎一样的同步速度）
+* 微信（32位桌面版转制，与家里视频发现脸变瘦了？）
+* OneNote（速度屎一样)   2018/7/5 22:35 更:现在同步速度犹如打鸡血
+* 每日必应（每天都有新感受）
+* Snipaste（截图工具，官网有免安装桌面版）
+* 知乎（与世界分享你刚编的故事）
+* 百度贴吧（好像没有广告呦）
+* it之家（水多？）
+
+	*2018/7/6 18:55 更*
+	
+* Ditto (剪切板管理工具)
+
+### 翻墙ing
+
+* lantern（GitHub开源，每月免费流量固定800M）
+* XX-net（据说永久不会被封，ipv4已死，局域网使用虚拟ipv6隧道了解一下）
+* poro.me（配合SSR小飞机食用效果更佳，iOS端使用小火箭代理）
+* Opera浏览器代理
+	* 更改系统区域设置，重启浏览器  //2018/7/6 18:46  更 已挂
+* https://ss.freess.org/index.html (翻墙访问 配合小飞机使用)
+* http://free-ss.cf/ (同上)
+
+### Windows桌面美化
+
+* rainmeter
+* enginepaper(让视频成为桌面)
+* 每日必应（uwp）
+* 桌面图标替换时可通过系统配置文件desktop.ini和
+	* Everything匹配来批量自定义桌面图标，此法对于修改
+	U盘图标同样适用（显示系统配置文件可在文件资源管理器选项中查看）
+	需添加autorun.inf文件
+
