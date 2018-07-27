@@ -10,10 +10,9 @@ tags: [collections]
 
 本页内容来自我的NoteBook
 
-展示平时收集内容以及个人想法心得 外加各种正经福利(逃)
+展示平时收集内容以及个人想法心得 外加各种正经福利(:no_mouth:逃...)
 
-## NoteBook
-
+## 目录
 * [uwp Apps](#uwp_Apps "uwp推荐")
 * [翻墙ing](#翻墙ing "翻墙集合")
 * [Windows桌面美化](#Windows桌面美化)
@@ -57,3 +56,15 @@ tags: [collections]
 	U盘图标同样适用（显示系统配置文件可在文件资源管理器选项中查看）
 	需添加autorun.inf文件
 
+### 浏览器插件
+1. Edge
+	* AdGuard:内存占用极低(够吗?)
+	* 油猴(百度云直链,哔哩哔哩)
+2. Chrome
+	* AdGuard
+	* 油猴
+	* Saladict:沙拉划词翻译 UI漂亮(够吗？)
+		* 支持鼠标点击事件自定义翻译
+		* 支持添加多种词典
+	* ![沙拉划词效果](/assets/img/NoteBook/Saladict.jpg "Saladict效果图")
+	
