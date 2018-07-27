@@ -81,21 +81,21 @@ tags: [collections]
 * 百度云盘用于转存资源
 
 ### 视频专区
-* [xx社区:smile:](t66y.com "你懂的")
-* [Avgle:smile:](avgle.com "你懂的")
-* [pornhub](pornhub.com "全球最大的那啥网站")
-* [18AV](imgscloud.win "导航")
-* [琉璃神社](liuli.pw "不正经番剧")
-* [人人影视](zimuzu.tv "我爱人人")
+* [xx社区:smile:](http://t66y.com "你懂的")
+* [Avgle:smile:](http://avgle.com "你懂的")
+* [pornhub](http://pornhub.com "全球最大的那啥网站")
+* [18AV](http://imgscloud.win "导航")
+* [琉璃神社](http://liuli.pw "不正经番剧")
+* [人人影视](http://zimuzu.tv "我爱人人")
 	* 追美剧的好地方
 	* 移动端推荐人人影视官方app食用更佳
-* [电影天堂](dytt8.net "盗版的")
+* [电影天堂](http://dytt8.net "盗版的")
 	* 虽然当年的电影天堂的老板被抓 但是还有无数个电影天堂存在
-* [哔哩哔哩](bilibili.com "b站")
+* [哔哩哔哩](http://bilibili.com "b站")
 	* 最近被央视点名 被强行整改
 	现已被小米,酷安,豌豆荚等各大应用商店下架
 	美名其曰升级后再次上架
-* [BT Kitty](cnbtkitty.org "搜索")
+* [BT Kitty](http://cnbtkitty.org "搜索")
 	* 资源搜索利器 翻墙使用-->[翻墙ing](#翻墙ing "翻墙ing")
 	
 * *获取磁链或者种子文件后使用下载工具进行下载即可*
